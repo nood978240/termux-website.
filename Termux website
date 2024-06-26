@@ -1,0 +1,5 @@
+### installment termux application
+
+       pkg install git nodejs -y
+  git clone https://github.com/nood978240/termux-website.git
+         cd termux-website
