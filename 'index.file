@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termux Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #282828;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        main {
+            display: flex;
+            margin: 2em;
+        }
+        article {
+            flex: 3;
+            padding: 1em;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        aside {
+            flex: 1;
+            margin-left: 1em;
+            padding: 1em;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #282828;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Termux Website</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#setup">Setup</a>
+        <a href="#usage">Usage</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <article>
+            <h2>Welcome to Termux</h2>
+            <p>This website provides information on using Termux, a powerful terminal emulator for Android.</p>
+            <section id="setup">
+                <h3>Setup</h3>
+                <p>Learn how to install and configure Termux on your Android device.</p>
+            </section>
+            <section id="usage">
+                <h3>Usage</h3>
+                <p>Discover the various commands and tools available in Termux for development and automation.</p>
+            </section>
+        </article>
+        <aside>
+            <h2>Additional Resources</h2>
+            <p>Check out these resources for more in-depth learning:</p>
+            <ul>
+                <li><a href="#">Termux Wiki</a></li>
+                <li><a href="#">Termux Packages</a></li>
+                <li><a href="#">Termux GitHub</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Termux Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
